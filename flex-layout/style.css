@@ -1,29 +1,73 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
 body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    
 }
 
 img {
+width: 400px;
+
 }
 
 button {
+border: none;
+border-radius: 8px;
+background: #eee;
+padding: 0.8rem;
+width: 180px;
+margin: 8px;
+cursor: pointer;
 }
 
 input {
+border: 1px solid #ddd;
+border-radius: 16px;
+padding: 8px 24px;
+min-width: 400px;
+
 }
 
 .content {
+    /* background-color: pink; */
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 16px;
 }
 
 a {
+text-decoration: none;
+color: #333;
 }
 
 .header,
 .footer {
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+
 }
 
 .footer {
+    
+    
 }
 
 ul {
+list-style: none;
+display: flex;
+gap: 10px;
 }

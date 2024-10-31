@@ -1,66 +1,50 @@
 @import url("https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap");
 
-
 body {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
-  
-  
 }
-
 .header {
-  background-color:blanchedalmond;
-  border-bottom;: 1px solid black
-  justify-content: space-between;
+  background-color: blanchedalmond;
+  border-bottom: 1px solid #333;
   padding: 8px;
   display: flex;
-
+  justify-content: space-between;
 }
-
 .profile-image {
   background-color: rebeccapurple;
   width: 48px;
   height: 48px;
   border-radius: 50%;
-  box-shadow: inset 2px 2px 4px rgba(red, green, blue, alpha);
-  background-image: none;
+  box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.5);
+  background-image: url("https://ui-avatars.com/api/?name=Mario+Bross&background=663399&color=fff");
   background-position: center;
 }
-
 .logo {
   font-size: 2rem;
+  color: rebeccapurple;
   font-style: italic;
   font-weight: 900;
-  color: rebeccapurple
-  
-  
 }
-
 .right,
 .left {
   display: flex;
   align-items: center;
   gap: 1.6rem
 }
-
 button {
-  background-color: blueviolet;
+  border: none;
+  border-radius: 8px;
+  background-color: rebeccapurple;
   color: white;
-  border-radius: 1rem;
-
+  padding: 8px 24px;
 }
-
 a {
-    padding: 0 20px;
-    text-decoration: none;
+  padding: 0 20px;
+  text-decoration: none;
 }
-
 ul {
-    display: flex;
-   list-style: none;
-}
-
-.links {
-  color: blueviolet;
+  display: flex;
+  list-style: none;
 }
